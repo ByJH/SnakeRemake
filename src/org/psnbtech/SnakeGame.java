@@ -561,6 +561,7 @@ public class SnakeGame extends JFrame {
 	 * @param args Unused.
 	 */
 	public static void main(String[] args) {
+		System.out.println("Testing Maven build integration with Jenkins.");
 		SnakeGame snake = new SnakeGame();
 		snake.startGame();
 	}
